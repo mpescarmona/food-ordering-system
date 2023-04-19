@@ -207,4 +207,5 @@ public class OrderApplicationServiceTest {
                 () -> orderApplicationService.createOrder(createOrderCommand));
         assertEquals("Restaurant with id " + RESTAURANT_ID + " is currently not active!", orderDomainException.getMessage());
     }
+
 }
