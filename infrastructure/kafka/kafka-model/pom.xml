@@ -26,7 +26,7 @@
                 <version>${avro.version}</version>
                 <configuration>
                     <stringType>String</stringType>
-                    <enableDecimalLogicaltype>true</enableDecimalLogicaltype>
+                    <enableDecimalLogicalType>true</enableDecimalLogicalType>
                 </configuration>
                 <executions>
                     <execution>
